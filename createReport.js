@@ -1,6 +1,6 @@
 const puppeteer = require('puppeteer');
 const login = require('./middlewares/login')
-const createPosts = require('./core-scraper/createPosts')
+const createPosts = require('./core-scraper/createReport')
 const mongoose = require('mongoose');
 
 mongoose.connect('mongodb://localhost/facebook-data', {useNewUrlParser:true, useUnifiedTopology: true})
